@@ -7,12 +7,15 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 <a name="readme-top"></a>
-
+<div align="center">
+    <img src="diagram.png" alt="logo" width="700"  height="auto" />
+  <br/>
+  <h3><b>Hospital Database</b></h3>
+</div>
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Vet-Clinic-Database ](#-vet-clinic-database-)
-  - [Schema ](#schema-)
+- [📖 Hospital Database ](#-hospital-database-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -28,13 +31,9 @@ This repository includes files with plain SQL that can be used to recreate a dat
   - [🤝 Contributing ](#-contributing-)
   - [📝 License ](#-license-)
 
-# 📖 Vet-Clinic-Database <a name="about-project"></a>
+# 📖 Hospital Database <a name="about-project"></a>
 
-> **Vet-Clinic-Database** is a relational database to create the initial data structure for a vet clinic. I create a table to store animals' information, insert some data into it, and query it.
-
-## Schema <a name="schema"></a>
-
-![Alt text](image.png)
+> **Hospital Database** is a relational database to create the initial data structure for a hospital. We created different tables, its relationships and indexes.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,11 +48,9 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Key Features <a name="key-features"></a>
 
-- **Database for vet animals**
-- **Query and update animals table.**
-- **query multiple tables.**
-- **add "join table" for visits.**
-- **add "database performance audit.**
+- **Database for a hospital.**
+- **Queries to create the indexes.**
+- **add "join table" for medical_histories and treatments tables.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,32 +69,32 @@ Install postgreSQL 15
 
 ```sh
   cd my-folder
-  git clone git@github.com:smunoz1988/vet-clinic-database.git
+  git clone https://github.com/Alejandroq12/hospital-db.git
 ```
 
 ### Install
 
 Install this project with:
 
-Not able at the moment
+Not available at the moment
 
 ### Usage
 
 To run the project, execute the following command:
 
-Not able at the moment
+Not available at the moment
 
 ### Run tests
 
 To run tests, run the following command:
 
-Not able at the moment
+Not available at the moment
 
 ### Deployment
 
 You can deploy this project using:
 
-Not able at the moment
+Not available at the moment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +118,7 @@ Not able at the moment
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **add "database performance audit ON vets table**
+- **Insert data because right now it is just the schema.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
