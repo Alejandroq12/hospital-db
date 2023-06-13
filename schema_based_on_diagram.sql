@@ -54,3 +54,7 @@ CREATE TABLE medical_history_treatments (
 -- Adding foreign key index to patient_id column in medical_histories table
 
 CREATE INDEX fk_idx_medical_histories_patient_id ON medical_histories (patient_id);
+
+-- Adding foreign key index to medical_history_id column in invoices table
+
+CREATE INDEX fk_idx_invoices_medical_history_id ON invoices (medical_history_id);
