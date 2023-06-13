@@ -42,3 +42,11 @@ CREATE TABLE treatments (
   name VARCHAR(50),
   PRIMARY KEY(id)
 );
+
+CREATE TABLE medical_history_treatments (
+  medical_history_id INT,
+  treatment_id INT,
+  PRIMARY KEY (medical_history_id, treatment_id),
+  FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id),
+  FOREIGN KEY (treatment_id) REFERENCES treatments(id)
+);
