@@ -6,3 +6,10 @@ CREATE TABLE medical_histories (
   PRIMARY KEY(id),
   FOREIGN KEY (patient_id) REFERENCES patients(id)
 );
+
+CREATE TABLE patients (
+  id INT GENERATED ALWAYS AS IDENTITY,
+  name VARCHAR(50),
+  date_of_birth DATE,
+  PRIMARY KEY(id)
+);
